@@ -1,0 +1,3 @@
+# Module test
+# RPC service class, partial path of RPC policy file
+com.ias.test.client.GreetingService, D5CA21362C52913CE6259B12ADFC4ECD.gwt.rpc

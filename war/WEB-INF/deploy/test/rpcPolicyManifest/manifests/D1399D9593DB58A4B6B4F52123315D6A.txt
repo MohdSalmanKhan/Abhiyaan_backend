@@ -1,0 +1,2 @@
+serviceClass: com.ias.test.client.GreetingService
+path: D5CA21362C52913CE6259B12ADFC4ECD.gwt.rpc

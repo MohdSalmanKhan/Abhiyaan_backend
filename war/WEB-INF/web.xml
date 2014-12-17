@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<servlet>
+		<servlet-name>TestGA</servlet-name>
+		<servlet-class>com.ias.test.TestGAServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TestGA</servlet-name>
+		<url-pattern>/testga</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Insert</servlet-name>
+		<servlet-class>com.ias.test.Insert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Insert</servlet-name>
+		<url-pattern>/create</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>serverequest</servlet-name>
+		<servlet-class>com.ias.test.ServeRequest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serverequest</servlet-name>
+		<url-pattern>/serveRequest</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Upload</servlet-name>
+		<servlet-class>com.ias.test.Upload</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>SearchQueryy</servlet-name>
+		<servlet-class>com.ias.test.SearchQueryy</servlet-class>
+	</servlet>
+
+
+
+	<servlet>
+		<servlet-name>Serve</servlet-name>
+		<servlet-class>com.ias.test.Serve</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SearchQueryy</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>Upload</servlet-name>
+		<url-pattern>/upload</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>Serve</servlet-name>
+		<url-pattern>/serve</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>UploadImage</servlet-name>
+		<servlet-class>com.ias.test.UploadImage</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UploadImage</servlet-name>
+		<url-pattern>/UploadImage</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>UploadImageBlobURL</servlet-name>
+		<servlet-class>com.ias.test.UploadImageBlobURL</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UploadImageBlobURL</servlet-name>
+		<url-pattern>/UploadImageBlobURL</url-pattern>
+	</servlet-mapping>
+</web-app>
